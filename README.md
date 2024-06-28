@@ -14,7 +14,9 @@ cd <repository-directory>
 
 ### Install Dependencies
 
-Install Flutter dependencies using `flutter pub get` COMMENT:
+Install Flutter dependencies using `flutter pub get` COMMENT
+
+After running flutter pub get, open the Android emulator and run the code using either VS Code or Android Studio.
 
 
 ## User Authentication
