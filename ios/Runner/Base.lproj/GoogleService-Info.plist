@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCCM7HloaBR-ssXimYx9m3NmxeKMJad0CQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>389273765439</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bala.tracker</string>
+	<key>PROJECT_ID</key>
+	<string>bala-expense-tracker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bala-expense-tracker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:389273765439:ios:65d19d07702512e3c3da8a</string>
+	<key>DATABASE_URL</key>
+	<string>https://bala-expense-tracker-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
