@@ -1,16 +1,33 @@
-# tracker
+# Expense Tracker App
 
-A new Flutter project.
+This Flutter application helps users track their expenses efficiently. It utilizes Firebase for user authentication and Firestore for storing expense data.
 
-## Getting Started
+## Project Setup
 
-This project is a starting point for a Flutter application.
+### Clone the Repository
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository to your local machine:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git clone https://github.com/Balapravin/expense_tracker.git
+cd <repository-directory>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Install Dependencies
+
+Install Flutter dependencies using `flutter pub get` COMMENT:
+
+
+## User Authentication
+
+Users can sign up and log in using their email and password credentials. After logging in, they are directed to the Expense List Page.
+
+## Expense List
+
+The Expense List Page displays all expenses added by the user. Each expense entry includes the amount, description, category, and date. Users can view their expenses and manage them efficiently.
+
+### Adding Expenses
+
+Users can add expenses with details such as amount, description, category, and date. Expenses are stored securely in a Firestore database, ensuring data persistence and accessibility.
+
+To navigate to the Add Expense page, click the floating action button on the Expense List Page.
+
